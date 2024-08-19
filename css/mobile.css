@@ -1,0 +1,202 @@
+:root {
+    --cor-de-fundo: #E7E7E7;
+    --cor-font-principal: #1A2E35;
+    --cor-font-secundaria: #000000;
+    --vermelho: #FF4F5A;
+    --cor-bnt: #1E1E1E;
+    --barnco: #FFFFFF;
+
+    --font-montserrat: "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-montserrat);
+}
+
+.cabecalho {
+    padding: 1px 0 0 45px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 43px 53px 43px;
+}
+
+.hero__text {
+    max-width: 274px;
+}
+
+.hero__text h1 {
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: var(--cor-font-principal);
+}
+
+.hero__text p {
+    font-size: 0.875rem;
+    color: var(--cor-font-secundaria);
+    margin-top: 10px;
+}
+
+.formulario h2 {
+    font-size: 1rem;
+    color: var(--cor-font-secundaria);
+    font-weight:bold ;
+    margin: 25px 0 10px 0;
+}
+
+.formulario__name, .formulario__email {
+    background-color: var(--barnco);
+    border: none;
+    width: 274px;
+    height: 45px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+    color: var(--cor-font-secundaria);
+    padding-left: 11px;
+}
+
+.formulario__bnt {
+    border: none;
+    width: 274px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: var(--vermelho);
+    font-size: 1rem;
+    font-weight: 900;
+    color: var(--barnco);
+    text-align: center;
+    margin-bottom: 26px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.formulario__bnt:hover {
+    background-color: var(--cor-font-secundaria);
+    transform: scale(1.1);
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--barnco);
+    padding: 22px 43px 37px 43px ;
+}
+
+.descricao__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 274px;
+}
+
+.descricao__titulo {
+    max-width: 217px;
+    font-size: 1rem;
+    font-weight: 900;
+    color: var(--cor-font-principal);
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.descricao__sobre {
+    font-size: 0.875rem;
+    color: var(--cor-font-secundaria);
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 14px;
+}
+
+.descricao__start {
+    font-size: 0.875rem;
+    color: var(--cor-font-secundaria);
+    font-weight: 600;
+    text-align: justify;
+    margin-bottom: 22px;
+}
+
+.descricao__bnt {
+    border: none;
+    width: 274px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: var(--vermelho);
+    font-size: 1rem;
+    font-weight: 900;
+    color: var(--barnco);
+    text-align: center;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.descricao__bnt:hover {
+    background-color: var(--cor-font-secundaria);
+    transform: scale(1.1);
+}
+
+.formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--vermelho);
+    padding: 32px 43px 37px 43px;
+}
+
+.formacao__img img {
+    width: 274px;
+    height: 222px;
+    margin-bottom: 12px;
+}
+
+.formacao__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formacao__text h2 {
+    font-size: 1rem;
+    max-width: 274px;
+    color: var(--barnco);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.formacao__text p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    max-width: 274px;
+    color: var(--barnco);
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.formacao__bnt {
+    border: none;
+    width: 274px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: var(--cor-font-secundaria);
+    font-size: 1rem;
+    font-weight: 900;
+    color: var(--barnco);
+    text-align: center;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.formacao__bnt:hover {
+    background-color: var(--barnco);
+    color: var(--vermelho);
+    transform: scale(1.1);
+}
