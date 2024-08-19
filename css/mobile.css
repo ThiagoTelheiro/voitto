@@ -158,9 +158,11 @@ body {
 }
 
 .formacao__img img {
-    width: 274px;
-    height: 222px;
     margin-bottom: 12px;
+}
+
+.formacao__img-tablete {
+    display: none;
 }
 
 .formacao__text {
@@ -171,7 +173,7 @@ body {
 
 .formacao__text h2 {
     font-size: 1rem;
-    max-width: 274px;
+    width: 274px;
     color: var(--barnco);
     font-weight: 700;
     margin-bottom: 10px;
@@ -180,7 +182,7 @@ body {
 .formacao__text p {
     font-size: 0.875rem;
     font-weight: 500;
-    max-width: 274px;
+    width: 274px;
     color: var(--barnco);
     margin-bottom: 15px;
     text-align: justify;
