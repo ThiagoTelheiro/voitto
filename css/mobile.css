@@ -88,6 +88,10 @@ body {
     display: none;
 }
 
+.hero__image-desktop {
+    display: none;
+}
+
 .descricao {
     display: flex;
     flex-direction: column;

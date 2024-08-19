@@ -60,6 +60,10 @@
         grid-area: hero__image;
     }
 
+    .hero__image-desktop {
+        display: none;
+    }
+
     .hero__image-mobile {
         display: none;
     }
