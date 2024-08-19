@@ -65,4 +65,43 @@
         font-size: 1.5rem;
         width: 1226px;
     }
+
+    .descricao__img-desktop {
+        display: flex;
+        gap: 20px;
+        margin: 50px 0 70px 0;
+    }
+
+    .descricao__bnt {
+        width: 396px;
+    }
+
+    .formacao__text {
+        align-self: flex-start;
+    }
+
+    .formacao__text h2  {
+        font-size: 2.25rem;
+        width: 641px;
+        margin-bottom: 23px;
+    }
+
+    .formacao__text p {
+        font-size: 1,5rem;
+        width: 641px;
+        margin-bottom: 30px;
+    }
+
+    .formacao__img-tablete {
+        display: none;
+    }
+
+    .formacao__img-desktop {
+        display: block;
+        padding-right: 52px;
+    }
+
+    .formacao__bnt {
+        width: 413px;
+    }
 }

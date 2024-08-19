@@ -134,6 +134,10 @@ body {
     margin-bottom: 22px;
 }
 
+.descricao__img-desktop {
+    display: none;
+}
+
 .descricao__bnt {
     border: none;
     width: 274px;
@@ -209,4 +213,8 @@ body {
     background-color: var(--barnco);
     color: var(--vermelho);
     transform: scale(1.1);
+}
+
+.formacao__img-desktop {
+    display: none;
 }

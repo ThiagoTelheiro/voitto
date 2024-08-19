@@ -96,6 +96,10 @@
         margin-bottom: 32px;
     }
 
+    .descricao__img-desktop {
+        display: none;
+    }
+
     .descricao__bnt {
         width: 351px;
         height: 60px;
@@ -141,6 +145,10 @@
         display: block;
         width: 235px;
         height: 346px;
+    }
+
+    .formacao__img-desktop {
+        display: none;
     }
 
 }
