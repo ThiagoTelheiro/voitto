@@ -1,7 +1,7 @@
 @media (min-width: 780px) {
 
     .cabecalho {
-        padding: 25px 0 20px 150px;
+        padding: 25px 0 20px 50px;
     }
 
     .logo img {
@@ -17,7 +17,7 @@
         "formulario hero__image";
         justify-content: center;
 
-        padding: 0 150px 50px 150px;
+        padding: 0 50px 50px 50px;
     }
 
     .hero__text {
@@ -61,5 +61,53 @@
 
     .hero__image-mobile {
         display: none;
+    }
+
+    .hero__image-tablet {
+        display: block;
+    }
+
+    .descricao {
+        padding: 50px;
+    }
+
+    .descricao__text {
+        max-width: 738px;
+    }
+    
+    .descricao__titulo {
+        font-size: 1.875rem;
+        max-width: 738px;
+        margin-bottom: 32px;
+    }
+    
+    .descricao__sobre {
+        font-size: 1.375rem;
+        margin-bottom: 24px;
+    }
+
+    .descricao__start  {
+        font-size: 1.375rem;
+        margin-bottom: 32px;
+    }
+
+    .descricao__bnt {
+        width: 351px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+
+    .formacao {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .formacao__text {
+        
+    }
+
+    .formacao__text h2 {
+        font-size: 2.375rem;
+        width: 641px;
     }
 }
